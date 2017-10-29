@@ -30,8 +30,7 @@ li a:hover {
 }
 .image {
     background-image: url("https://static.pexels.com/photos/343299/pexels-photo-343299.jpeg");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .btn-row {
     text-align: center;
