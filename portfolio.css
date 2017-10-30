@@ -1,19 +1,21 @@
-/* navbar */
-#navbar {
-    display: flex;
-    align-items: bottom;
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
-    color: white;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+.name {
+    font-size:xx-large;
 }
 li a {
     font-size: large;
     font-family: 'Merriweather', serif;
     display: block;
-    color: #FFFFFF;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -21,51 +23,4 @@ li a {
 
 li a:hover {
     background-color: black;
-}
-/*cover photo*/
-#center-text {
-    padding-top: 15%;
-    padding-bottom: 15%;
-    padding-left: 10%;
-}
-.image {
-    background-image: url("https://static.pexels.com/photos/343299/pexels-photo-343299.jpeg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.btn-row {
-    text-align: center;
-    padding-bottom: 20%;
-}
-.center-btn {
-    background-color: black !important;
-    border: none;
-}
-.center-btn:hover {
-    background-color: grey;
-}
-
-/* footer section */
-footer {
-    background-color: black;
-}
-#center {
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    font-size: large;
-    color: white;
-}
-#left-col {
-    text-align: right;
-    padding-right: 10%;
-    font-family: 'Merriweather', serif;
-    font-size: large;
-
-    color: white;
-}
-#right-col {
-    text-align: left;
-    font-family: 'Merriweather', serif;
-    font-size: large;
-    color: white;
 }
